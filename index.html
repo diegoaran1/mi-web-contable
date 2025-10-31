@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidad Clara - Control Financiero para Emprendedores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Contabilidad Clara">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#como-funciona">Cómo Funciona</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>¿Sabes Exactamente Cuánto Gana Tu Negocio Cada Mes?</h1>
+            <p>Te proporcionamos un sistema de contabilidad fácil y sin complicaciones. Controla tus gastos y ganancias en tiempo real, sin perder horas en papeleo.</p>
+            <button class="cta-button" onclick="scrollToContact()">Obtén Tu Primera Consulta Gratuita</button>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="servicios">
+        <h2>Servicios Hechos para Ti</h2>
+        <div class="servicios-grid">
+            <div class="servicio-card">
+                <h3>📊 Control Básico Mensual</h3>
+                <p>Informe claro de gastos vs ingresos. Organización digital de facturas. Perfecto para emprendedores que recién empiezan.</p>
+            </div>
+            <div class="servicio-card">
+                <h3>🚀 Análisis para Decisiones</h3>
+                <p>Reportes de rentabilidad por producto. Proyecciones de flujo de caja. Para PYMEs que quieren crecer.</p>
+            </div>
+            <div class="servicio-card">
+                <h3>📑 Formalización SAT</h3>
+                <p>Ayuda con altas en el SAT. Emisión de facturas electrónicas. Declaraciones mensuales sin estrés.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="contacto">
+        <h2>Empieza a Controlar Tus Finanzas Hoy</h2>
+        <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu email" required>
+            <input type="tel" placeholder="Tu teléfono">
+            <select required>
+                <option value="">¿Eres...?</option>
+                <option value="emprendedor">Emprendedor</option>
+                <option value="pyme">PYME establecida</option>
+            </select>
+            <textarea placeholder="¿Cuál es tu mayor desafío financiero actual?" rows="4"></textarea>
+            <button type="submit">Agendar Mi Consulta Gratuita</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Contabilidad Clara. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
